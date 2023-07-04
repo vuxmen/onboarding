@@ -17,23 +17,23 @@ export default function Purpose(props: IPurpose) {
         <Grid item xs={12} md={6}>
           <FormGroup>
             <FormControlLabel 
-            control={<Checkbox defaultChecked />} label="Money transfer"
+            control={<Checkbox />} label="Money transfer"
              checked={purposes.includes('moneyTransfer')}
                 onChange={() => onChangePurpose('moneyTransfer')}/>
             <FormControlLabel 
-            control={<Checkbox defaultChecked />} label="Payment"
+            control={<Checkbox />} label="Payment"
              checked={purposes.includes('payment')}
                 onChange={() => onChangePurpose('payment')}/>
                 <FormControlLabel 
-            control={<Checkbox defaultChecked />} label="Bill payment"
+            control={<Checkbox />} label="Bill payment"
              checked={purposes.includes('billPayment')}
                 onChange={() => onChangePurpose('billPayment')}/>
                 <FormControlLabel 
-            control={<Checkbox defaultChecked />} label="Loan"
+            control={<Checkbox />} label="Loan"
              checked={purposes.includes('loan')}
                 onChange={() => onChangePurpose('loan')}/>
                 <FormControlLabel 
-            control={<Checkbox defaultChecked />} label="Investment"
+            control={<Checkbox />} label="Investment"
              checked={purposes.includes('investment')}
                 onChange={() => onChangePurpose('investment')}/>
         </FormGroup>

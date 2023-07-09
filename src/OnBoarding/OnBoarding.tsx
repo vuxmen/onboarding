@@ -17,7 +17,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import BasicInformation from './BasicInformation';
 import AdditionalInformation from './AdditionalInformation';
 import Purpose from './Purpose';
-import dayjs, {Dayjs} from 'dayjs'
+import {Dayjs} from 'dayjs'
 
 function Copyright() {
   return (
